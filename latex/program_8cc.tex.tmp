@@ -1,0 +1,33 @@
+\hypertarget{program_8cc}{}\section{program.\+cc File Reference}
+\label{program_8cc}\index{program.\+cc@{program.\+cc}}
+
+
+This program will allow the user to input a .txt file and output the amount of charcters and lines in the file.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+Include dependency graph for program.\+cc\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{program_8cc_ade376a82000e87f2122b61d4186bfdb5}\label{program_8cc_ade376a82000e87f2122b61d4186bfdb5}} 
+int {\bfseries count\+Line} (string input)
+\item 
+\mbox{\Hypertarget{program_8cc_aed78b33b0da53ceadb84dec7954f4f61}\label{program_8cc_aed78b33b0da53ceadb84dec7954f4f61}} 
+int {\bfseries count\+Char} (string input)
+\item 
+\mbox{\Hypertarget{program_8cc_a0ddf1224851353fc92bfbff6f499fa97}\label{program_8cc_a0ddf1224851353fc92bfbff6f499fa97}} 
+int {\bfseries main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This program will allow the user to input a .txt file and output the amount of charcters and lines in the file. 
+
+\begin{DoxyAuthor}{Author}
+Hugh Dillon
+\end{DoxyAuthor}
