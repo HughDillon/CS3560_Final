@@ -5,7 +5,7 @@ program.o: program.cc
 	g++ -Wall -c program.cc
 
 doc: Doxyfile
-	doxygen
+	doxygen Doxyfile
 
 Doxyfile:
 	doxygen -g
